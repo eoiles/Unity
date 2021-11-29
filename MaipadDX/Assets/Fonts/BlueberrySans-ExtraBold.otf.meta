@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 6f6af71bf8f0b9248ae6f89c5f909155
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Blueberry Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6209007bf56b96a4a8414d86eacb8659, type: 3}
+  - {fileID: 12800000, guid: 90a74b8abf4a62e4dbd367f22abaacb6, type: 3}
+  - {fileID: 12800000, guid: 54cb0474c31c2ad4aae3eeab62180866, type: 3}
+  - {fileID: 12800000, guid: 5a6d47810bd5c49478bfb32ca1d4d5be, type: 3}
+  - {fileID: 12800000, guid: 167949bd7ee7647489f4ab0479a79273, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637606587472236416
-    m_Hash: 1970097928
+      ticks: 637755187084013499
+    m_Hash: 2660572511
   m_LockFileStatus:
     m_FilePath: D:/Projects/Introduction To Audio/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637755122730702939
-    m_Hash: 640872174
+      ticks: 637755187084133181
+    m_Hash: 668141819
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -72,8 +72,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -87,6 +89,7 @@ m_PackageAssets:
         compatible:
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -97,7 +100,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.4
+        verified: 1.15.7
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
@@ -134,6 +137,121 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
         revision: f079d307344f568804d3ea6d781013135e614e45
+        path: 
+    - packageId: com.unity.connect.share@4.2.3
+      testable: 0
+      isDirectDependency: 1
+      version: 4.2.3
+      source: 1
+      resolvedPath: D:\Projects\Introduction To Audio\Library\PackageCache\com.unity.connect.share@4.2.3
+      assetPath: Packages/com.unity.connect.share
+      name: com.unity.connect.share
+      displayName: WebGL Publisher
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: This tool allows you to make a WebGL build of your current project
+        and upload it to Unity's website, where it can be shared with others.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview
+        - 1.0.1-preview
+        - 1.0.2-preview
+        - 1.0.3-preview
+        - 1.0.4-preview
+        - 1.0.5-preview
+        - 1.0.6-preview.2
+        - 1.0.7-preview
+        - 1.0.8-preview
+        - 1.0.9-preview
+        - 1.0.10-preview
+        - 1.1.0-preview.1
+        - 1.2.0-preview.1
+        - 2.0.1-preview
+        - 2.0.2-preview.3
+        - 2.0.2-preview.4
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 3.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.1.0
+        - 4.1.1
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        compatible:
+        - 1.0.0-preview
+        - 1.0.1-preview
+        - 1.0.2-preview
+        - 1.0.3-preview
+        - 1.0.4-preview
+        - 1.0.5-preview
+        - 1.0.6-preview.2
+        - 1.0.7-preview
+        - 1.0.8-preview
+        - 1.0.9-preview
+        - 1.0.10-preview
+        - 1.1.0-preview.1
+        - 1.2.0-preview.1
+        - 2.0.1-preview
+        - 2.0.2-preview.3
+        - 2.0.2-preview.4
+        - 2.0.3
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 3.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.1.0
+        - 4.1.1
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        verified: 
+      dependencies:
+      - name: com.unity.editorcoroutines
+        version: 1.0.0
+      - name: com.unity.settings-manager
+        version: 1.0.2
+      resolvedDependencies:
+      - name: com.unity.editorcoroutines
+        version: 1.0.0
+      - name: com.unity.settings-manager
+        version: 1.0.2
+      keywords:
+      - webgl
+      - share
+      - connect
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637695698090000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git
+        revision: 9a66a825d48494378f81fc94289eddd505df1c40
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -465,8 +583,10 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.7.0
+        - 10.8.0
         verified: 10.7.0
       dependencies:
       - name: com.unity.mathematics
@@ -2761,8 +2881,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -2783,7 +2913,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2812,12 +2942,40 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
+        - 1.2.5
         compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -2834,7 +2992,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -2961,8 +3119,10 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.7.0
+        - 10.8.0
         verified: 10.7.0
       dependencies:
       - name: com.unity.ugui
@@ -3119,8 +3279,10 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.7.0
+        - 10.8.0
         verified: 10.7.0
       dependencies:
       - name: com.unity.render-pipelines.core
@@ -3163,39 +3325,107 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/Graphics.git
         revision: 65f895bbddc2d4875c1b605a1921764ddcb0f703
         path: 
-    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+    - packageId: com.unity.editorcoroutines@1.0.0
       testable: 0
       isDirectDependency: 0
-      version: 2.0.0
+      version: 1.0.0
       source: 1
-      resolvedPath: D:\Projects\Introduction To Audio\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
-      assetPath: Packages/com.unity.nuget.newtonsoft-json
-      name: com.unity.nuget.newtonsoft-json
-      displayName: Newtonsoft Json
+      resolvedPath: D:\Projects\Introduction To Audio\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+      assetPath: Packages/com.unity.editorcoroutines
+      name: com.unity.editorcoroutines
+      displayName: Editor Coroutines
       author:
         name: 
         email: 
         url: 
       category: 
-      type: library
-      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
-        Currently synced to version 12.0.2.
-
-
-        This package is used for advanced
-        json serialization and deserialization. Most Unity users will be better suited
-        using the existing json tools built into Unity.
-
-        To avoid assembly
-        clashes, please use this package if you intend to use Newtonsoft Json.'
+      type: 
+      description: 'The editor coroutines package allows developers to start constructs
+        similar to Unity''s monobehaviour based coroutines within the editor using
+        abitrary objects. '
       status: 4
       errors: []
       versions:
         all:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        compatible:
+        - 0.0.1-preview.3
+        - 0.0.1-preview.4
+        - 0.0.1-preview.5
+        - 0.0.2-preview.1
+        - 0.1.0-preview.1
+        - 0.1.0-preview.2
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - coroutine
+      - coroutines
+      - editor
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637232611380000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+        revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+        path: 
+    - packageId: com.unity.settings-manager@1.0.2
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.2
+      source: 1
+      resolvedPath: D:\Projects\Introduction To Audio\Library\PackageCache\com.unity.settings-manager@1.0.2
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
         - 2.0.0
         compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
         - 2.0.0
-        verified: 2.0.0
+        verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3211,7 +3441,83 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637187671360000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: e8eedc87ca7850bac0f7b2257db4edb8c300a0f3
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: D:\Projects\Introduction To Audio\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3240,9 +3546,37 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
         compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -3261,7 +3595,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:
